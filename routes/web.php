@@ -19,3 +19,13 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', [PagesController::class, 'adminPage']);
+
+Route::get('/driver/driver', [PagesController::class, 'driverPage']);
+
+Route::get('/driver/login', [PagesController::class, 'driverPage']);
+
+Route::get('/driver/signup', [PagesController::class, 'driverPage']);
+
+
+
+Route::get('/passenger/login', [PagesController::class, 'passengerPage']);
